@@ -3,10 +3,12 @@ using UnityEngine.UI;
 
 public class SliderTemplate : MonoBehaviour
 {
-    public Slider mainSlider;
+    //public Slider mainSlider;
+    public Slider eyeBrowSlider;
 
-    public void Template()
+    public void EyebrowRight()
     {
-        Debug.Log(mainSlider.value);
+        //changeRightEyebrow(eyeBrowSlider.value);
+        Debug.Log(eyeBrowSlider.value);
     }
 }

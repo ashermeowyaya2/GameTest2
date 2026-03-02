@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: eyeData
   m_EditorClassIdentifier: Assembly-CSharp::eyeData
-  eyeSettingsList: []
+  eyeSettingsList:
+  - {fileID: 11400000, guid: 4b74642dae641f7bbaf734325be2636d, type: 2}
+  - {fileID: 11400000, guid: 138b7792a159879db9c7e88bc10cebe0, type: 2}
+  pupilSettingsList:
+  - {fileID: 11400000, guid: ad6c7a77b745783879b8409246d74ee5, type: 2}
+  - {fileID: 11400000, guid: 533f0ed71319dfebf8a2cf8d34bc67cc, type: 2}

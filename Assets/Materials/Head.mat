@@ -106,7 +106,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _pupil:
-        m_Texture: {fileID: 2800000, guid: b9a8367c6071310f79dd07f41bbf7621, type: 3}
+        m_Texture: {fileID: 2800000, guid: c8a5a520824861e8cacff481fcbeb4ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _test:
@@ -172,7 +172,9 @@ Material:
     - _eyeLColor: {r: 0.31132078, g: 0.15712889, b: 0.16155572, a: 1}
     - _eyeLOffset: {r: 0, g: 0, b: 0, a: 0}
     - _eyeRColor: {r: 0.2794144, g: 0.6509434, b: 0.28569254, a: 1}
-    - _eyeROffset: {r: 0, g: 0, b: 0, a: 0}
+    - _eyeROffset: {r: 0.25, g: 0, b: 0, a: 0}
+    - _irisLOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _irisROffset: {r: 0, g: 0, b: 0, a: 0}
     - _skinColor: {r: 1, g: 0.78059524, b: 0.6839622, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e04ce1d4205b92a89a16382a8747b5, type: 3}
   m_Name: cattyEye
   m_EditorClassIdentifier: Assembly-CSharp::EyesSetting
-  EyeShape: 0
-  LashTexture: {fileID: 0}
-  ScleraTexture: {fileID: 0}
+  EyeShape: 1
+  LashTexture: {fileID: 2800000, guid: c3dd198e76f4648958258dbb40d490ca, type: 3}
+  ScleraTexture: {fileID: 2800000, guid: 48d171ac6de408069b677b91629703ff, type: 3}
