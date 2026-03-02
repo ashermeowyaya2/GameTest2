@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: defaultPupil
   m_EditorClassIdentifier: Assembly-CSharp::PupilSetting
   PupilShape: 0
-  PupilTexture: {fileID: 2800000, guid: b9a8367c6071310f79dd07f41bbf7621, type: 3}
+  PupilTexture: {fileID: 2800000, guid: abaeb9dd6841c8497b6bcd9b7651ce0f, type: 3}

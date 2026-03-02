@@ -13,6 +13,7 @@ public class customizerPanels : MonoBehaviour
     public GameObject panelEyes;
     public GameObject panelOEyes;
     public GameObject panelMouth;
+    public GameObject panelOMouth;
 
     public void genesHidePanel(int x){
         genesPanel.SetActive(true);
@@ -25,6 +26,7 @@ public class customizerPanels : MonoBehaviour
                 panelEyes.SetActive(false);
                 panelOEyes.SetActive(false);
                 panelMouth.SetActive(false);
+                panelOMouth.SetActive(false);
                 break;
             case 1:
                 panelSkin.SetActive(true);
@@ -33,6 +35,7 @@ public class customizerPanels : MonoBehaviour
                 panelEyes.SetActive(false);
                 panelOEyes.SetActive(false);
                 panelMouth.SetActive(false);
+                panelOMouth.SetActive(false);
                 break;
             case 2:
                 panelSkin.SetActive(false);
@@ -41,6 +44,7 @@ public class customizerPanels : MonoBehaviour
                 panelEyes.SetActive(false);
                 panelOEyes.SetActive(false);
                 panelMouth.SetActive(false);
+                panelOMouth.SetActive(false);
                 break;
             case 3:
                 panelSkin.SetActive(false);
@@ -49,6 +53,7 @@ public class customizerPanels : MonoBehaviour
                 panelEyes.SetActive(true);
                 panelOEyes.SetActive(true);
                 panelMouth.SetActive(false);
+                panelOMouth.SetActive(false);
                 break;
             case 4:
                 panelSkin.SetActive(false);
@@ -57,6 +62,7 @@ public class customizerPanels : MonoBehaviour
                 panelEyes.SetActive(false);
                 panelOEyes.SetActive(false);
                 panelMouth.SetActive(true);
+                panelOMouth.SetActive(true);
                 break;
         }
     }

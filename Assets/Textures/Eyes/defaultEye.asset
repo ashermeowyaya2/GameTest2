@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78e04ce1d4205b92a89a16382a8747b5, type: 3}
-  m_Name: bunnyEye
+  m_Script: {fileID: 0}
+  m_Name: defaultEye
   m_EditorClassIdentifier: Assembly-CSharp::EyesSetting
   EyeShape: 0
   LashTexture: {fileID: 2800000, guid: 168bf2d1704ecd9b7a2f616989cae576, type: 3}

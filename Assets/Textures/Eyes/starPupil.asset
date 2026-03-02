@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: starPupil
   m_EditorClassIdentifier: Assembly-CSharp::PupilSetting
   PupilShape: 1
-  PupilTexture: {fileID: 2800000, guid: c8a5a520824861e8cacff481fcbeb4ea, type: 3}
+  PupilTexture: {fileID: 2800000, guid: afff022fc1decf60ab88bca5929ec1ac, type: 3}
