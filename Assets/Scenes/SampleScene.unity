@@ -1099,7 +1099,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124785426}
-  - component: {fileID: 124785427}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1124,25 +1123,6 @@ Transform:
   - {fileID: 797358817}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &124785427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124785425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e27768d685976ea2fb7aed5348fd4cce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::changingFaceParts
-  test2:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  IrisShape: 2
 --- !u!1001 &153700502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10378,6 +10358,7 @@ GameObject:
   - component: {fileID: 1626651923}
   - component: {fileID: 1626651924}
   - component: {fileID: 1626651925}
+  - component: {fileID: 1626651926}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10431,6 +10412,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cameraRotation
   inSceneObj: {fileID: 124785425}
+--- !u!114 &1626651926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626651921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27768d685976ea2fb7aed5348fd4cce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::changingFaceParts
+  eyeData: {fileID: 0}
 --- !u!1 &1648365842
 GameObject:
   m_ObjectHideFlags: 0
@@ -14576,5 +14570,5 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1044837976}
   - {fileID: 2100279147}
-  - {fileID: 1626651923}
   - {fileID: 124785426}
+  - {fileID: 1626651923}
