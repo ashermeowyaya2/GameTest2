@@ -14145,7 +14145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::changingFaceParts
   faceMaterial: {fileID: 2100000, guid: 2192d0e320d14bd83854426bc749bd4c, type: 2}
-  eyeData: {fileID: 11400000, guid: 0bd223568ce90fb4785c13c5b5044e26, type: 2}
+  eyeData: {fileID: 11400000, guid: d6dd274699410467bbcab11f30a944e0, type: 2}
   rightEyeBrowSlider: {fileID: 2005321888}
   leftEyeBrowSlider: {fileID: 1994050775}
   rightEyeSlider: {fileID: 1054871103}
