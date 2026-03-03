@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 
 ////// ENUMS //////
+ [System.Serializable]
     public enum eyebrowShape{
         defaultEyebrow,
         lineEyebrow,
@@ -25,7 +26,7 @@ public class changingFaceParts : MonoBehaviour
 
 ////// VARIABLES //////    
     public Material faceMaterial;
-    public eyeData eyeData;
+    public EyeData eyeData;
     string ebROffset="_eyeBrowROffset";
     string ebLOffset="_eyeBrowLOffset";
     string eROffset="_eyeROffset";
